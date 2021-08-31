@@ -15,7 +15,7 @@ func TestTerraformAwsHelloWorldExample(t *testing.T) {
 
 	terraformOptions := &terraform.Options{
 		// The path to where our Terraform code is located. Note my code lives in on the GO path. SO you will need to update.
-		TerraformDir: "../examples/simpleExample",
+		TerraformDir: ".",
 	}
 
 	// At the end of the test, run `terraform destroy` to clean up any resources that were created.
